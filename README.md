@@ -59,3 +59,11 @@ MAILTO=root
 0 23 * * * cd /home/xen-backup && /bin/bash xen-backup-hdd.sh
 0 1 * * * cd /home/xen-backup && /bin/bash xen-backup-smb.sh
 ```
+
+## Restore VM
+```
+xe vm-import filename=/mnt/hdd/<name_of_VM.xva> force=true preserve=true
+```
+Set "preserve" to "false" if you need to duplicate VM.
+
+Be careful with symbols in the name of .xva file.
