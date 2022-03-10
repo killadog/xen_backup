@@ -7,7 +7,7 @@
 2. Convert to TEMPLATE
 3. Export to .xva file (to external USB HDD or SMB share)
 4. Delete SNAPSHOT
-5. Delete bakcups older than 10 days
+5. Delete backups older than 10 days
 
 ## Prepare xen-uuids.txt
 - SSH to host
